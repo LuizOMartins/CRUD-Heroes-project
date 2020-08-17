@@ -1,0 +1,6 @@
+.tmp
+.DS_Store
+.DS_Store?
+
+heroes/node_modules/
+heroes/.dpl/
