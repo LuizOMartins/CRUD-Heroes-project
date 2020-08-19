@@ -1,11 +1,11 @@
 angular.module('heroes')
-	.controller('FotoController', function($scope, recursoFoto, $routeParams, cadastroDeFotos) {
+	.controller('HeroController', function($scope, heroResource, $routeParams, heroesRegister) {
 
 		$scope.foto = {};
 		$scope.mensagem = '';
 
 		if($routeParams.fotoId) {
-			recursoFoto.get({fotoId: $routeParams.fotoId}, function(foto) {
+			heroResource.get({fotoId: $routeParams.fotoId}, function(foto) {
 				$scope.foto = foto; 
 			}, function(erro) {
 				console.log(erro);
@@ -15,7 +15,7 @@ angular.module('heroes')
 
 		$scope.submeter = function() {
 			if ($scope.formulario.$valid) {
-				cadastroDeFotos.cadastrar($scope.foto)
+				heroesRegister.cadastrar($scope.foto)
 				.then(function(dados) {
 					$scope.mensagem = dados.mensagem;
 					if (dados.inclusao) $scope.foto = {};

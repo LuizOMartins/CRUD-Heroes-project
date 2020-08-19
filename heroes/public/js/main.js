@@ -9,14 +9,14 @@ angular.module('heroes', ['minhasDiretivas','ngAnimate', 'ngRoute', 'ngResource'
 			controller: 'HeroesHomeController'
 		});
 
-		$routeProvider.when('/fotos/new', {
-			templateUrl: 'partials/foto.html',
-			controller: 'FotoController'
+		$routeProvider.when('/hero/new', {
+			templateUrl: 'partials/hero.html',
+			controller: 'HeroController'
 		});
 
-		$routeProvider.when('/fotos/edit/:fotoId', {
-			templateUrl: 'partials/foto.html',
-			controller: 'FotoController'
+		$routeProvider.when('/hero/edit/:fotoId', {
+			templateUrl: 'partials/hero.html',
+			controller: 'HeroController'
 		});
 
 		$routeProvider.when('/login', {
