@@ -4,10 +4,15 @@
 
 ##Ideias: 
 
-* Fazer alterações para a refêrência do ProjetoCRUDHero
-* Documentação para entender o projeto.
-* Trocar /fotos por /home
+* Fazer alterações para a refêrência do ProjetoCRUDHero ( feitas no front-end).
+->  Pra ser feito no Banck-end:
+- cirar collections  já com o atributos definidos
+- alterar os endpoints e as chamadas e o Schema do Mongoose.
+
+* Documentação para entender o projeto. (Feito com antiga referência).
+
 * Logout. (fazer como uma diretiva personalizada e associar um controller ao mesmo.)
+
 * Procurar alguma API que já tenha dados de Heróis.
 * https://superheroapi.com/try-now.html (pode ajudar no cadastro de novos Heróis).
 * API da Mavel muito burocrática.
