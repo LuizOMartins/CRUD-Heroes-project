@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/efeitos.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<script src="js/lib/angular.min.js"></script>
         <script src="js/lib/angular-animate.min.js"></script>
         <script src="js/lib/angular-route.min.js"></script>
@@ -20,7 +21,8 @@
         <script src="js/services/meus-servicos.js"></script>
 		<script src="js/services/token-interceptor.js"></script>
 		<script src="js/controllers/menu-controller.js"></script>
-
+		<script src="js/controllers/logout-controller.js"></script>
+		
 		<script src="js/efeitos.js"></script>
 	</head>
 	<body id="body" ng-controller="menuController">
@@ -33,9 +35,9 @@
 			<a href="#">Contact</a>
 		  </div>
 		  <span  id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()" >☰</span>
-
+		  <meu-logout></meu-logout>
 		<div class="container">
-
+			
 			<ng-view></ng-view>
 
 		</div> <!-- fim container -->        
