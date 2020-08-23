@@ -11,6 +11,7 @@ module.exports = function(app) {
 		model.find()
 		.then(function(fotos) {
 			res.json(fotos);
+			console.log(fotos);
 		}, function(error) {
 			console.log(error);
 			res.sendStatus(500);

@@ -5,8 +5,6 @@ angular.module('heroes')
         delete $window.sessionStorage.token;
         $location.path( "/login" );
 
-    };
-
-    
+    };   
 
 });

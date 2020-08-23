@@ -11,13 +11,14 @@
 
 * Documentação para entender o projeto. (Feito com antiga referência).
 
-* Logout. (fazer como uma diretiva personalizada e associar um controller ao mesmo.)
+
+* Grupos de Hero vir a partir do Banco.
+
 
 * Procurar alguma API que já tenha dados de Heróis.
 * https://superheroapi.com/try-now.html (pode ajudar no cadastro de novos Heróis).
-* API da Mavel muito burocrática.
+
 * Gerar documentação da API?
-* Grupos de Hero vir a partir do Banco.
 * Passar o Login para uma diretiva personalizada
 * Tela cadastrar usuários. (somente quem for ADM).
 * Criptografar a senha no banco.
