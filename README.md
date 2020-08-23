@@ -2,24 +2,29 @@
 
 
 
-##Ideias: 
+## Ideias: 
+
+
+* Grupos de Hero vir a partir do Banco.- OK
+
+* Procurar alguma API que já tenha dados de Heróis.
+https://superheroapi.com/try-now.html (pode ajudar no cadastro de novos Heróis).
+
+* Documentação para entender o projeto. (Feito com antiga referência).
+
 
 * Fazer alterações para a refêrência do ProjetoCRUDHero ( feitas no front-end).
 ->  Pra ser feito no Banck-end:
 - cirar collections  já com o atributos definidos
 - alterar os endpoints e as chamadas e o Schema do Mongoose.
 
-* Documentação para entender o projeto. (Feito com antiga referência).
+
+* Passar o menu para uma diretiva personalizada.
 
 
-* Grupos de Hero vir a partir do Banco.
-
-
-* Procurar alguma API que já tenha dados de Heróis.
-* https://superheroapi.com/try-now.html (pode ajudar no cadastro de novos Heróis).
 
 * Gerar documentação da API?
-* Passar o Login para uma diretiva personalizada
+
 * Tela cadastrar usuários. (somente quem for ADM).
 * Criptografar a senha no banco.
 * Login com ID.

@@ -26,6 +26,7 @@
 		<script src="js/efeitos.js"></script>
 	</head>
 	<body id="body" ng-controller="menuController">
+		
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="/#/home">Home</a>
@@ -35,8 +36,10 @@
 			<a href="#">Contact</a>
 		  </div>
 		  <span  id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()" >☰</span>
+		 
 		  <meu-logout></meu-logout>
-		<div class="container">
+		
+		  <div class="container">
 			
 			<ng-view></ng-view>
 
