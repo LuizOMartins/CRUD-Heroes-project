@@ -19,10 +19,17 @@ angular.module('heroes', ['minhasDiretivas','ngAnimate', 'ngRoute', 'ngResource'
 			controller: 'HeroController'
 		});
 
+		$routeProvider.when('/users', {
+            templateUrl: 'partials/users.html',
+            controller: 'UsersController'
+        });
+
+
 		$routeProvider.when('/login', {
             templateUrl: 'partials/login.html',
             controller: 'LoginController'
         });
+
 
 
 		$routeProvider.otherwise({redirectTo: '/home'});

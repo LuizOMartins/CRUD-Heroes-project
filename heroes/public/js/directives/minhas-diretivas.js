@@ -13,6 +13,19 @@ angular.module('minhasDiretivas', [])
 
 		return ddo;
     })
+    .directive('meuMenu', function() {
+
+		var ddo = {};
+
+		ddo.restrict = "AE";
+		ddo.scope = {
+            titulo: '@'
+        };
+
+        ddo.templateUrl = 'js/directives/meu-menu.html';
+
+		return ddo;
+	})
     .directive('meuLogout', function() {
 
 		var ddo = {};
