@@ -1,10 +1,41 @@
 # CRUD Heroes project with MEAN STACK 1.0 Technologies
 
+* Tecnologias: 
+* MEAN: Mongo, Express, AngularJS e Node.
+
+
 ## Versões:
 * Bootstrap v3.3.4 (http://getbootstrap.com).
 * Font Aewsone 4.7.
 
-### TO DO
+
+### Rodar Projeto  / Run Project
+
+
+* Pré-Requisitos:
+
+	- node
+	- Npm
+	- Mongo
+	- Editor de preferência
+	- Ter as colections usadas pela aplicação. (Mongo).
+		- database: alurapic
+		- Collections: Foto , Grupos e Usuario.
+
+* Baixar Dependências:
+```javaScript
+	npm install 
+```
+
+* Rodar Projeto:
+```javaScript
+	npm start
+```
+
+
+
+
+#### TO DO
 
 
 - [x] Grupos de Hero vir a partir do Banco.
@@ -51,7 +82,8 @@ https://www.aspsnippets.com/Articles/AngularJS-Dynamic-Table-example-Dynamically
 
 
 
-### Anotações:
+
+##### Anotações:
 
 * Buscar os Heróis:
 
